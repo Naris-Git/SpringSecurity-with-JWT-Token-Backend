@@ -30,6 +30,8 @@ public class SecurityConfig {
     @Autowired
     private UserDetailsService userDetailsService;
 
+
+    //jwt filter will do the authorization after login
     @Autowired
     private jwtFilter jwtFilter;
 
